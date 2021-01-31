@@ -1,0 +1,175 @@
+@font-face {
+  font-family: Akira;
+  src: url(https://cdn.shopify.com/s/files/1/0437/7654/0825/files/Akira.otf?v=1603334627);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Akira", sans-serif;
+}
+nav {
+  display: flex;
+  height: 12vh;
+  width: 100%;
+  background: #000000;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 50px 0 100px;
+  flex-wrap: wrap;
+  box-shadow: 0px 0px 8px #888888;
+}
+nav .logo {
+  color: #fff;
+  text-decoration: none;
+  font-size: 25px;
+  font-weight: 600;
+}
+.logo > a {
+  color: white;
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+}
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.flex-left {
+  display: flex;
+  align-items: left;
+  justify-content: center;
+}
+nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+}
+nav ul li {
+  margin: 0 5px;
+}
+nav ul li a {
+  color: #f2f2f2;
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: 500;
+  padding: 8px 15px;
+  border-radius: 0px;
+  letter-spacing: 1px;
+  transition: all 0.3s ease;
+  font-family: Helvetica Neue, sans-serif;
+}
+nav ul li a.active,
+nav ul li a:hover {
+  color: #fffff;
+  background: rgba(255,255,255,0.2);
+}
+nav .menu-btn i {
+  color: #fff;
+  font-size: 22px;
+  cursor: pointer;
+  display: none;
+}
+input[type="checkbox"] {
+  display: none;
+}
+.contact-button {
+  background: #C4B457;
+}
+@media (max-width: 1000px) {
+  nav {
+    padding: 0 40px 0 50px;
+  }
+}
+@media (max-width: 920px) {
+  nav .menu-btn i {
+    display: block;
+  }
+  #click:checked ~ .menu-btn i:before {
+    content: "\f00d";
+  }
+  nav ul {
+    position: fixed;
+    top: 80px;
+    left: -100%;
+    background: #111;
+    height: 100vh;
+    width: 100%;
+    text-align: center;
+    display: block;
+    transition: all 0.3s cubic-bezier(1, 0, 0, 1);
+  }
+  #click:checked ~ ul {
+    left: 0;
+  }
+  nav ul li {
+    width: 100%;
+    margin: 40px 0;
+  }
+  nav ul li a {
+    width: 100%;
+    margin-left: -100%;
+    display: block;
+    font-size: 20px;
+    transition: 0.6s cubic-bezier(1, 0, 0, 1);
+  }
+  #click:checked ~ ul li a {
+    margin-left: 0px;
+  }
+  nav ul li a.active,
+  nav ul li a:hover {
+    background: none;
+    color: #C4B457;
+  }
+  .contact-button {
+  background: none;
+  }
+}
+.content {
+  text-align: center;
+  z-index: -1;
+  width: 100vw;
+  height: 88vh;
+  flex-direction: column;
+  padding: 0 40px;
+  color: #1b1b1b;
+}
+.background {
+  position: absolute;
+  z-index: -2;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+}
+.background-image {
+  width: 700px;
+  margin-top: 2%;
+  margin-left: 40%
+}
+.header-logo {
+  width: 1em; 
+  margin-right: .5em; 
+}
+.h1 {
+  font-size: 40px;
+  font-weight: 700;
+  text-align: left;
+}
+.button {
+  font-size: 1.2em;
+  padding: .4em .2em;
+  width: 17em;
+  background-color: #C4B457;
+  text-decoration: none;
+}
+.button-text {
+  color: white;
+  text-decoration: none;
+}
+@media (max-width: 920px) {
+  .background-image {
+  margin-left: 20%;
+  }
+}
