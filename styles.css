@@ -215,7 +215,7 @@ form {
   justify-content: flex-start;
   flex-direction: column;
   padding: 0;
-  font-family: Helvetica Neue, sans-serif;
+  font-family: Helvetica Neue, sans-serif;  
 }
 form > label, #submit {
  font-family: Helvetica Neue, sans-serif; 
