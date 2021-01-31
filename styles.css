@@ -200,7 +200,11 @@ input[type="checkbox"] {
 }
 .social-media-icon {
   padding: 0 .2em;
-  width: 2.5em
+  width: 2.5em;
+  opacity: 1
+}
+.social-media-icon {
+  opacity: .4
 }
 .footer-text {
   font-family: Helvetica Neue, sans-serif;
