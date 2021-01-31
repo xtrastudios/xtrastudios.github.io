@@ -196,15 +196,15 @@ input[type="checkbox"] {
   justify-content: flex-start;
   font-family: Helvetica Neue, sans-serif;
   padding-bottom: 2%;
-  z-index: -2
+  z-index: 0  
 }
 .social-media-icon {
   padding: 0 .2em;
   width: 2.5em;
-  opacity: 1
+  opacity: 1;
 }
-.social-media-icon {
-  opacity: .4
+.social-media-icon:hover {
+  opacity: .7
 }
 .footer-text {
   font-family: Helvetica Neue, sans-serif;
