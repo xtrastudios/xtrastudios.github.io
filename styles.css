@@ -174,14 +174,20 @@ input[type="checkbox"] {
   margin-left: 20%;
   }
 }
-.social-media-icons {
+.footer {
   display: flex;
   flex-direction: row;
   width: 100%;
-  align-items: flex-start;
+  align-items: center;
   justify-content: flex-start;
+  font-family: Helvetica Neue, sans-serif;
 }
 .social-media-icon {
   padding: 0 .2em;
-  width: 3em
+  width: 2.5em
+}
+.footer-text {
+  font-family: Helvetica Neue, sans-serif;
+  font-weight: 700;
+  margin-left: .2em;
 }
