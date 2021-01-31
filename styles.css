@@ -281,8 +281,16 @@ form > textarea {
 #studios-container {
   margin-bottom: 0vh;
 }
+#contact-container {
+  align-items: flex-start;
+  justify-content: center;
+}
 @media (max-width: 920px) {
   #studios-container {
       margin-bottom: 8vh
   }
+  #contact-container {
+  align-items: center;
+  justify-content: center;
+}
 }
