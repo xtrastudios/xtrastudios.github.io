@@ -139,6 +139,9 @@ input[type="checkbox"] {
   padding: 0 40px;
   color: #1b1b1b;
 }
+.content-container {
+  padding: 0;
+}
 .background {
   position: absolute;
   z-index: -2;
@@ -176,6 +179,9 @@ input[type="checkbox"] {
   .background-image {
   margin-left: 20%;
   }
+  .content {
+    padding: 0 15px;
+  }
 }
 .footer {
   display: flex;
@@ -196,6 +202,7 @@ input[type="checkbox"] {
   font-weight: 700;
   margin-left: .2em;
   text-decoration: none;
+  font-size: 12px;
   color: black;
 }
 .footer-text:hover {
@@ -242,6 +249,9 @@ form > textarea {
 @media (max-width: 920px) {
   form > input, textarea {
     width: 85vw
+  }
+  .social-media-icon {
+    width: 2em
   }
 }
 .team-image {
