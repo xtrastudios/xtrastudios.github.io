@@ -271,6 +271,7 @@ form > textarea {
 }
 .team-member {
   padding: 5px 20px 0px 0px;
+  text-decoration: none;
 }
 .team-name {
   font-family: Helvetica Neue, sans-serif;
