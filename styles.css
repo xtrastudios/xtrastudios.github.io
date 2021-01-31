@@ -39,7 +39,7 @@ nav .logo {
 }
 .flex-left {
   display: flex;
-  align-items: left;
+  align-items: flex-start;
   justify-content: center;
 }
 nav ul {
@@ -139,7 +139,7 @@ input[type="checkbox"] {
 .background {
   position: absolute;
   z-index: -2;
-  height: 100vh;
+  height: 88vh;
   width: 100vw;
   overflow: hidden;
 }
@@ -172,4 +172,15 @@ input[type="checkbox"] {
   .background-image {
   margin-left: 20%;
   }
+}
+.social-media-icons {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.social-media-icon {
+  padding: 0 .2em;
+  width: 3em
 }
