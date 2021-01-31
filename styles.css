@@ -237,9 +237,28 @@ form > textarea {
   font-family: Helvetica Neue, sans-serif;
   font-size: 24px;
   font-weight: bold;
+  text-align: left;
 }
 @media (max-width: 920px) {
   form > input, textarea {
     width: 85vw
   }
+}
+.team-image {
+  width: 75px;
+}
+.team-container {
+  display: flex;
+  flex-direction: row;
+}
+.team-member {
+  padding: 5px 20px 0px 0px;
+}
+.team-name {
+  font-family: Helvetica Neue, sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+}
+.team-section {
+  margin: 10px 0 0 0;
 }
