@@ -192,6 +192,7 @@ input[type="checkbox"] {
   justify-content: flex-start;
   font-family: Helvetica Neue, sans-serif;
   bottom: 3%;
+  z-index: -2
 }
 .social-media-icon {
   padding: 0 .2em;
