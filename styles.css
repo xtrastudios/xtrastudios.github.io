@@ -190,4 +190,9 @@ input[type="checkbox"] {
   font-family: Helvetica Neue, sans-serif;
   font-weight: 700;
   margin-left: .2em;
+  text-decoration: none;
+  color: black;
+}
+.footer-text:hover {
+  text-decoration: underline;
 }
