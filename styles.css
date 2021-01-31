@@ -240,7 +240,7 @@ form > textarea {
   color: white;
   background-color: #C4B457;
   border: none;
-  --webkit-appearance: none;
+  -webkit-appearance: none;
 }
 .paragraph {
   font-family: Helvetica Neue, sans-serif;
