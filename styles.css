@@ -228,6 +228,7 @@ form > input, textarea {
   border-radius: 8px;
   width: 50em;
   border: 1px solid #ccc;
+  -webkit-appearance: none;
 }
 form > textarea {
   height: 10em;
