@@ -276,6 +276,8 @@ form > textarea {
   font-family: Helvetica Neue, sans-serif;
   font-size: 18px;
   font-weight: bold;
+  color: black;
+  text-decoration: none;
 }
 .team-section {
   margin: 10px 0 0 0;
