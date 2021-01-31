@@ -140,7 +140,7 @@ input[type="checkbox"] {
   color: #1b1b1b;
 }
 .content-container {
-  padding: 0;
+  padding: 15px;
 }
 .background {
   position: absolute;
@@ -253,6 +253,11 @@ form > textarea {
   .social-media-icon {
     width: 2em
   }
+    .footer {
+    align-items: center;
+    justify-content: center;
+    width: auto
+  }
 }
 .team-image {
   width: 75px;
@@ -260,6 +265,7 @@ form > textarea {
 .team-container {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
 }
 .team-member {
   padding: 5px 20px 0px 0px;
@@ -271,4 +277,12 @@ form > textarea {
 }
 .team-section {
   margin: 10px 0 0 0;
+}
+#studios-container {
+  margin-bottom: 0vh;
+}
+@media (max-width: 920px) {
+  #studios-container {
+      margin-bottom: 8vh
+  }
 }
