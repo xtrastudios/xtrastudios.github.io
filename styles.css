@@ -9,6 +9,9 @@
   box-sizing: border-box;
   font-family: "Akira", sans-serif;
 }
+html {
+  overflow-x: hidden;
+}
 nav {
   display: flex;
   height: 12vh;
@@ -176,11 +179,13 @@ input[type="checkbox"] {
 }
 .footer {
   display: flex;
+  position: absolute;
   flex-direction: row;
   width: 100%;
   align-items: center;
   justify-content: flex-start;
   font-family: Helvetica Neue, sans-serif;
+  margin-top: 38vh;
 }
 .social-media-icon {
   padding: 0 .2em;
