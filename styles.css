@@ -240,6 +240,8 @@ form > input, textarea {
 }
 form > textarea {
   height: 10em;
+  max-height: 10em;
+  max-width: 50em;
 }
 #submit {
   width: 5em;
@@ -259,7 +261,8 @@ form > textarea {
 }
 @media (max-width: 920px) {
   form > input, textarea {
-    width: 85vw
+    width: 85vw;
+    max-width: 85vw;
   }
   .social-media-icon {
     width: 2em
