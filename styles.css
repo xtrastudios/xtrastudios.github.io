@@ -276,9 +276,13 @@ form > textarea {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  text-decoration: none;
 }
 .team-member {
   padding: 5px 20px 0px 0px;
+  text-decoration: none;
+}
+.team-member > a {
   text-decoration: none;
 }
 .team-name {
@@ -290,6 +294,7 @@ form > textarea {
 }
 .team-section {
   margin: 10px 0 0 0;
+  text-decoration: none;  
 }
 #studios-container {
   margin-bottom: 0vh;
@@ -306,4 +311,13 @@ form > textarea {
   align-items: center;
   justify-content: center;
 }
+  .footer {
+    flex-wrap: wrap;
+  }
+}
+@media (min-width: 921px) {
+  .footer {
+    width: 90vw;
+    justify-content: space-around;
+  }
 }
