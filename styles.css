@@ -199,8 +199,8 @@ input[type="checkbox"] {
   z-index: 0  
 }
 .social-media-icon {
-  padding: 0 .2em;
-  width: 2.5em;
+  padding: 0 .4em;
+  width: 2.2em;
   opacity: 1;
 }
 .social-media-icon:hover {
