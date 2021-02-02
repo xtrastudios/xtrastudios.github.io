@@ -320,17 +320,17 @@ form > textarea {
   .footer {
     flex-wrap: wrap;
   }
-/*    #team {
-    margin-top: 12vh;
+    #team {
+    margin-top: 25vh;
     height: auto;
     justify-content: flex-start;
-    min-height: 125vh;
+    /*min-height: 125vh;*/
     margin-bottom: 5vh;
     }
     #footer-team {
       margin-top: 25vh
     }
-*/}
+  }
 @media (min-width: 921px) {
   .footer {
     width: 90vw;
