@@ -326,7 +326,8 @@ form > textarea {
     margin-bottom: 15vh;
     }
     #footer-team {
-      margin-top: 35vh
+      margin-top: 35vh;
+      padding-bottom: 1%;
     }
   }
 @media (min-width: 921px) {
