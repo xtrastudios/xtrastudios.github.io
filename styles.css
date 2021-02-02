@@ -274,6 +274,7 @@ form > textarea {
 }
 .team-image {
   width: 75px;
+  border-radius: 50%;
 }
 .team-container {
   display: flex;
