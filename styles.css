@@ -317,13 +317,12 @@ form > textarea {
   .footer {
     flex-wrap: wrap;
   }
+    #team {
+    margin-top: 12vh;
 }
 @media (min-width: 921px) {
   .footer {
     width: 90vw;
     justify-content: space-around;
-  }
-  #team {
-    margin-top: 12vh;
   }
 }
