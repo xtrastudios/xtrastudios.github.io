@@ -322,6 +322,10 @@ form > textarea {
     margin-top: 12vh;
     height: auto;
     justify-content: flex-start;
+    }
+    #footer-team {
+      margin-top: 15vh
+    }
 }
 @media (min-width: 921px) {
   .footer {
