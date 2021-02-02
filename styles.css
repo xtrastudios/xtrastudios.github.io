@@ -321,7 +321,7 @@ form > textarea {
     flex-wrap: wrap;
   }
     #team {
-    margin-top: 25vh;
+    /*margin-top: 25vh;*/
     height: auto;
     justify-content: flex-start;
     /*min-height: 125vh;*/
