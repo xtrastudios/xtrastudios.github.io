@@ -323,7 +323,6 @@ form > textarea {
     #team {
     height: auto;
     justify-content: flex-start;
-    /*min-height: 125vh;*/
     margin-bottom: 5vh;
     }
     #footer-team {
