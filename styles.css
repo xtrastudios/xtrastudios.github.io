@@ -311,7 +311,7 @@ form > textarea {
   #studios-container {
   margin-bottom: 8vh; 
   align-items: flex-start;
-  justify-content: center;
+  justify-content: none;
   }
   #contact-container {
   align-items: center;
