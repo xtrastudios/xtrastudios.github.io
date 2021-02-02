@@ -309,8 +309,7 @@ form > textarea {
 }
 @media (max-width: 920px) {
   #studios-container {
-      margin-bottom: 8vh;
-      
+  margin-bottom: 8vh; 
   align-items: flex-start;
   justify-content: center;
   }
