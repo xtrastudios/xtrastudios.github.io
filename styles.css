@@ -302,6 +302,8 @@ form > textarea {
 }
 #studios-container {
   margin-bottom: 0vh;
+  align-items: flex-start;
+  justify-content: center;
 }
 #contact-container {
   align-items: flex-start;
@@ -318,7 +320,7 @@ form > textarea {
   .footer {
     flex-wrap: wrap;
   }
-    #team {
+/*    #team {
     margin-top: 12vh;
     height: auto;
     justify-content: flex-start;
@@ -328,7 +330,7 @@ form > textarea {
     #footer-team {
       margin-top: 25vh
     }
-}
+*/}
 @media (min-width: 921px) {
   .footer {
     width: 90vw;
