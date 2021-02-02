@@ -323,4 +323,7 @@ form > textarea {
     width: 90vw;
     justify-content: space-around;
   }
+  #team {
+    margin-top: 12vh;
+  }
 }
